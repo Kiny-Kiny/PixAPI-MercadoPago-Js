@@ -1,8 +1,8 @@
-const requests = require("./modules/requests.js")
+const requests = require("./utils/requests.js")
 
 class payment {
   constructor(access_token) {
-    this.access_token = "Bearer " + acess_token
+    this.access_token = "Bearer " + access_token
     this.user_id = null
     this.payment_id = null
     this.user_name = null
